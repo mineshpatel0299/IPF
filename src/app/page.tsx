@@ -9,8 +9,8 @@ export default function Home() {
         alt="International Punjabi Forum — Coming Soon. Honesty, Selfless Service & Justice to All. Punjab, Punjabi & Punjabiyat. Dr Harvansh Chawla, Chairman."
         priority
         placeholder="blur"
-        sizes="(min-width: 640px) 32rem, 100vw"
-        className="h-auto max-h-[92svh] w-full max-w-sm object-contain sm:max-w-lg sm:rounded-2xl sm:shadow-xl"
+        sizes="(min-width: 640px) 100vw, 100vw"
+        className="w-full h-auto sm:w-auto sm:h-[85svh] max-w-full max-h-[90svh] rounded-2xl shadow-2xl object-contain"
       />
     </main>
   );
