@@ -1,18 +1,28 @@
 import Image from "next/image";
 import comingSoon from "../../public/comingsoon.jpeg";
 import bgLandmarks from "../../public/bg-landmarks.png";
+import bgLandmarksMobile from "../../public/bg-landmarks-mobile.png";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-svh flex-1 items-center justify-center bg-[#EDEBEC] p-4 sm:p-6 md:p-10 overflow-hidden">
-      {/* Background Image */}
+    <main className="relative flex min-h-svh flex-1 items-center justify-center bg-[#EDEBEC] p-6 md:p-10 overflow-hidden">
+      {/* Desktop Background Image */}
       <Image
         src={bgLandmarks}
         alt="International Landmarks Background"
         fill
         priority
         placeholder="blur"
-        className="absolute inset-0 z-0 object-cover object-center opacity-25"
+        className="absolute inset-0 z-0 object-cover object-center opacity-25 hidden sm:block"
+      />
+      {/* Mobile Background Image (Portrait) */}
+      <Image
+        src={bgLandmarksMobile}
+        alt="International Landmarks Background Mobile"
+        fill
+        priority
+        placeholder="blur"
+        className="absolute inset-0 z-0 object-cover object-center opacity-25 block sm:hidden"
       />
       <div className="absolute inset-0 z-0 bg-[#EDEBEC]/70" />
 
