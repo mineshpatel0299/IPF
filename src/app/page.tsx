@@ -26,9 +26,9 @@ export default function Home() {
       <div className="absolute inset-0 z-0 bg-[#EDEBEC]/40" />
 
       {/* Main Content */}
-      <div className="relative z-10 flex w-full max-w-7xl flex-col items-center gap-3 sm:flex-row sm:items-end sm:justify-center sm:gap-6 sm:-translate-x-8 lg:gap-14 lg:-translate-x-16">
+      <div className="relative z-10 flex w-full max-w-7xl flex-col items-center gap-5 sm:flex-row sm:items-end sm:justify-center sm:gap-6 sm:-translate-x-8 lg:gap-14 lg:-translate-x-16">
         {/* Chairman Photo */}
-        <div className="relative order-2 -mb-4 h-[36svh] w-auto shrink-0 sm:order-1 sm:h-[92svh] md:-mb-8 lg:h-svh">
+        <div className="relative order-2 -mb-4 h-[44svh] w-auto shrink-0 sm:order-1 sm:h-[92svh] md:-mb-8 lg:h-svh">
           <Image
             src={chairmanPhoto}
             alt="Dr Harvansh Chawla, Chairman"
@@ -39,35 +39,35 @@ export default function Home() {
         </div>
 
         {/* Logo + Typography */}
-        <div className="order-1 flex flex-col items-center gap-2 text-center sm:order-2 sm:max-w-sm sm:gap-5 sm:pb-4 lg:max-w-xl lg:pb-6 xl:max-w-2xl">
+        <div className="order-1 flex flex-col items-center gap-3 text-center sm:order-2 sm:max-w-sm sm:gap-5 sm:pb-4 lg:max-w-xl lg:pb-6 xl:max-w-2xl">
           <Image
             src={logo}
             alt="International Punjabi Forum"
             priority
-            className="h-16 w-auto sm:h-36 lg:h-44 xl:h-48"
+            className="h-20 w-auto drop-shadow-sm sm:h-36 sm:drop-shadow-none lg:h-44 xl:h-48"
           />
 
           <Divider />
-          <p className="font-serif text-base italic leading-snug text-[#1B2A63] sm:text-2xl lg:text-3xl">
+          <p className="font-serif text-lg italic leading-snug text-[#1B2A63] sm:text-2xl lg:text-3xl">
             Honesty, Selfless Service
             <br />
             &amp; Justice to All.
           </p>
 
           <Divider />
-          <p className="font-serif text-sm font-bold leading-snug text-[#1B2A63] sm:text-xl lg:text-2xl">
+          <p className="font-serif text-base font-bold leading-snug text-[#1B2A63] sm:text-xl lg:text-2xl">
             Punjab, Punjabi
             <br />
             &amp; Punjabiyat
           </p>
 
           <Divider />
-          <p className="font-serif text-xl font-bold text-[#1B2A63] sm:text-3xl lg:text-4xl">
+          <p className="font-serif text-2xl font-bold text-[#1B2A63] sm:text-3xl lg:text-4xl">
             Dr Harvansh Chawla
           </p>
 
           <Divider />
-          <p className="font-serif text-xs font-semibold tracking-wide text-[#1B2A63] sm:text-lg lg:text-xl">
+          <p className="font-serif text-sm font-semibold tracking-wide text-[#1B2A63] sm:text-lg lg:text-xl">
             Chairman
           </p>
         </div>
