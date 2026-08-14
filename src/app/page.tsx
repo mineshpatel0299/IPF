@@ -4,12 +4,12 @@ import mobile from "../../public/mobile.png";
 
 export default function Home() {
   return (
-    <main className="flex h-svh w-full items-center justify-center bg-[#baab99]">
+    <main className="flex h-svh w-full items-start justify-center bg-[#baab99] sm:items-center">
       <Image
         src={mobile}
         alt="International Punjabi Forum - Coming Soon"
         priority
-        className="block h-full w-full object-contain sm:hidden"
+        className="block h-auto w-full sm:hidden"
       />
       <Image
         src={ggg}

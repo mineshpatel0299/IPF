@@ -31,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
-      <body className="h-full flex flex-col overflow-hidden bg-[#EDEBEC]">{children}</body>
+      <body className="h-full flex flex-col overflow-y-auto overflow-x-hidden bg-[#EDEBEC] sm:overflow-hidden">{children}</body>
     </html>
   );
 }
