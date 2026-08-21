@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ggg from "../../public/ggg.png";
+import gg from "../../public/gg.jpeg";
 import mobile from "../../public/mobile.png";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         className="block h-auto w-full sm:hidden"
       />
       <Image
-        src={ggg}
+        src={gg}
         alt="International Punjabi Forum - Coming Soon"
         priority
         className="hidden h-full w-full scale-y-105 object-contain sm:block"
